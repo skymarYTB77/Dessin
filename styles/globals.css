@@ -1,5 +1,6 @@
-@import "tailwindcss";
-@import "./fonts.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
   --background: #ffffff;
@@ -60,3 +61,5 @@ body {
     0 4px 6px rgba(0, 0, 0, 0.03),
     inset 0 0 3px rgba(255, 255, 255, 0.8);
 }
+
+@import "./fonts.css";
