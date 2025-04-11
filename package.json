@@ -1,5 +1,5 @@
 {
-  "name": "native-image",
+  "name": "Dessin",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -11,10 +11,13 @@
   "dependencies": {
     "@google/generative-ai": "^0.24.0",
     "file-saver": "^2.0.5",
+    "konva": "^9.3.6",
     "lucide-react": "^0.483.0",
     "next": "15.2.3",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-konva": "^18.2.10",
+    "use-image": "^1.1.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.18",
